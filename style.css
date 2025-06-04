@@ -334,7 +334,7 @@ display: none;
   }
 }
 
-/* Make navbar fixed in mobile view */
+
 @media (max-width: 992px) {
   .navbar {
     position: absolute;
