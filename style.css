@@ -15,14 +15,14 @@ body a:hover {
   color: gray !important;
 }
 
-.header-home{
+.header-home {
   background-image: url("./assets/Group\ 11.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
   text-align: center;
 }
- .header {
+.header {
   background-image: url("./assets/Group\ 11.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,9 +79,9 @@ nav .navbar-collapse ul li .aTag {
   margin: 0 auto; /* Centering content */
 }
 
-.bannerimg .banner img{
-max-width:100%;
-height:auto;
+.bannerimg .banner img {
+  max-width: 100%;
+  height: auto;
 }
 .banner {
   margin-top: -360px;
@@ -118,7 +118,7 @@ height:auto;
 .eslcourses .container {
   padding: 80px 15px; /* Adjusted padding for smaller screens */
 }
-.eslcourses .card{
+.eslcourses .card {
   width: 100%;
 }
 
@@ -151,8 +151,8 @@ height:auto;
   /* margin-top: -80px;
   margin-left: 55px; */
   position: absolute;
-    bottom: -38px;
-    width: 450px;
+  bottom: -38px;
+  width: 450px;
 }
 
 .aboutme .container {
@@ -185,9 +185,9 @@ height:auto;
 .contact .contact2 form label {
   font-weight: 500;
 }
-.eslcoursepage img{
- max-width: 100%; 
-height: auto;
+.eslcoursepage img {
+  max-width: 100%;
+  height: auto;
 }
 
 .button {
@@ -231,21 +231,20 @@ form .inline {
   .header-text {
     font-size: 2rem;
   }
-.banner {
-  margin-top: -260px;
-}
-.aboutme .row img{
-display: none;
-}
+  .banner {
+    margin-top: -260px;
+  }
+  .aboutme .row img {
+    display: none;
+  }
   .header-para {
     font-size: 1rem;
   }
-.headerall{
+  .headerall {
     width: 100%;
     max-width: 100%;
     padding: 30px;
-
-}
+  }
   .aboutlangcorp .container {
     padding: 40px 15px;
   }
@@ -253,15 +252,16 @@ display: none;
   .eslcourses .container {
     padding: 40px 15px;
   }
-  .eslcourses h1,p{
+  .eslcourses h1,
+  p {
     text-align: left;
   }
-  .cards-row{
-  gap: 30px;
-}
-.aboutme {
-  padding-left: 10px;
-}
+  .cards-row {
+    gap: 30px;
+  }
+  .aboutme {
+    padding-left: 10px;
+  }
   .aboutme .container {
     padding: 40px 15px;
   }
@@ -288,18 +288,18 @@ display: none;
   .header-para {
     font-size: 0.875rem;
   }
-.banner {
-  margin-top: -258px;
-}
+  .banner {
+    margin-top: -258px;
+  }
   .aboutlangcorp .container {
     padding: 30px 15px;
   }
-  .aboutme .row img{
-display: none;
-}
-.cards-row{
-  gap: 30px;
-}
+  .aboutme .row img {
+    display: none;
+  }
+  .cards-row {
+    gap: 30px;
+  }
   .eslcourses .container {
     padding: 30px 15px;
   }
@@ -308,14 +308,13 @@ display: none;
     padding: 30px 15px;
   }
   .aboutme {
-  padding-left: 10px;
-}
-.headerall{
+    padding-left: 10px;
+  }
+  .headerall {
     width: 100%;
     max-width: 100%;
     padding: 30px;
-
-}
+  }
 
   .contact .contact1 {
     padding: 50px 20px;
@@ -334,7 +333,6 @@ display: none;
   }
 }
 
-
 @media (max-width: 992px) {
   .navbar {
     position: absolute;
@@ -342,7 +340,7 @@ display: none;
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.9);
   }
 
   .navbar-collapse {
@@ -353,12 +351,12 @@ display: none;
     background-color: white;
     z-index: 999;
   }
-
+/* for navbar hamburger menu */
   .headerall {
-    padding-top: 100px; 
+    padding-top: 100px;
     position: relative;
   }
-   .navbar-toggler {
+  .navbar-toggler {
     border-color: black;
   }
 
