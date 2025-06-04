@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 body a {
@@ -14,11 +15,18 @@ body a:hover {
   color: gray !important;
 }
 
-header {
+.header-home{
   background-image: url("./assets/Group\ 11.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 85vh;
+  text-align: center;
+}
+ .header {
+  background-image: url("./assets/Group\ 11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
   text-align: center;
 }
 
@@ -71,6 +79,10 @@ nav .navbar-collapse ul li .aTag {
   margin: 0 auto; /* Centering content */
 }
 
+.bannerimg .banner img{
+max-width:100%;
+height:auto;
+}
 .banner {
   margin-top: -360px;
 }
@@ -106,6 +118,9 @@ nav .navbar-collapse ul li .aTag {
 .eslcourses .container {
   padding: 80px 15px; /* Adjusted padding for smaller screens */
 }
+.eslcourses .card{
+  width: 100%;
+}
 
 .card-textt {
   height: 60px;
@@ -124,15 +139,20 @@ nav .navbar-collapse ul li .aTag {
 }
 
 .aboutme {
+  padding-left: 100px;
   margin-top: 100px;
   background-image: url("./assets/Group\ 48.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .aboutme .row img {
-  margin-top: -80px;
-  margin-left: 55px;
+  /* margin-top: -80px;
+  margin-left: 55px; */
+  position: absolute;
+    bottom: -38px;
+    width: 450px;
 }
 
 .aboutme .container {
@@ -165,6 +185,10 @@ nav .navbar-collapse ul li .aTag {
 .contact .contact2 form label {
   font-weight: 500;
 }
+.eslcoursepage img{
+ max-width: 100%; 
+height: auto;
+}
 
 .button {
   display: flex;
@@ -183,7 +207,7 @@ nav .navbar-collapse ul li .aTag {
   text-transform: uppercase;
   font-family: "Cinzel", serif;
   font-size: 1rem;
-  padding: 50px 15px; /* Adjusted padding for smaller screens */
+  padding: 50px 15px;
 }
 
 .footer .container h1 {
@@ -207,11 +231,21 @@ form .inline {
   .header-text {
     font-size: 2rem;
   }
-
+.banner {
+  margin-top: -260px;
+}
+.aboutme .row img{
+display: none;
+}
   .header-para {
     font-size: 1rem;
   }
+.headerall{
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
 
+}
   .aboutlangcorp .container {
     padding: 40px 15px;
   }
@@ -219,7 +253,15 @@ form .inline {
   .eslcourses .container {
     padding: 40px 15px;
   }
-
+  .eslcourses h1,p{
+    text-align: left;
+  }
+  .cards-row{
+  gap: 30px;
+}
+.aboutme {
+  padding-left: 10px;
+}
   .aboutme .container {
     padding: 40px 15px;
   }
@@ -246,18 +288,34 @@ form .inline {
   .header-para {
     font-size: 0.875rem;
   }
-
+.banner {
+  margin-top: -258px;
+}
   .aboutlangcorp .container {
-    padding: 20px 15px;
+    padding: 30px 15px;
   }
-
+  .aboutme .row img{
+display: none;
+}
+.cards-row{
+  gap: 30px;
+}
   .eslcourses .container {
-    padding: 20px 15px;
+    padding: 30px 15px;
   }
 
   .aboutme .container {
-    padding: 20px 15px;
+    padding: 30px 15px;
   }
+  .aboutme {
+  padding-left: 10px;
+}
+.headerall{
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+
+}
 
   .contact .contact1 {
     padding: 50px 20px;
@@ -268,7 +326,7 @@ form .inline {
   }
 
   .footer .container {
-    padding: 20px 15px;
+    padding: 30px 15px;
   }
 
   .aboutme .row img {
