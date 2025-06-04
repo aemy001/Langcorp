@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  color: gray !important;
+}
+
+header {
+  background-image: url("./assets/Group\ 11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+}
+
+nav .navbar-brand {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  font-size: 50px;
+}
+
+nav .navbar-collapse {
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  display: flex;
+  justify-content: end;
+  letter-spacing: 0px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+nav .navbar-collapse ul li {
+  border-bottom: 1px solid black;
+}
+
+nav .navbar-collapse ul li .aTag {
+  margin-left: 40px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  font-size: 2.5rem; /* Adjusted for better readability on larger screens */
+}
+
+.header-para {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem; /* Adjusted for better readability */
+}
+
+.headerall {
+  text-transform: lowercase;
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; /* Centering content */
+}
+
+.banner {
+  margin-top: -360px;
+}
+
+.aboutlangcorp {
+  background-image: url("./assets/Group\ 4676.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.poppins-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.cinzel-text {
+  text-transform: uppercase;
+  font-family: "Cinzel";
+}
+
+.aboutlangcorp .container {
+  height: auto; /* Adjusted for responsive height */
+  color: white;
+  padding: 60px 15px 35px; /* Adjusted padding for mobile screens */
+}
+
+.eslcourses {
+  background-image: url("./assets/Group\ 4675.png");
+}
+
+.eslcourses .container {
+  padding: 80px 15px; /* Adjusted padding for smaller screens */
+}
+
+.card-textt {
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.card-button {
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 2px;
+}
+
+.aboutme {
+  margin-top: 100px;
+  background-image: url("./assets/Group\ 48.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutme .row img {
+  margin-top: -80px;
+  margin-left: 55px;
+}
+
+.aboutme .container {
+  color: white;
+  padding: 80px 15px; /* Adjusted padding for smaller screens */
+}
+
+.contact {
+  background-image: url("assets/Group\ 54.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .contact1 {
+  padding: 200px 100px 250px 200px;
+}
+
+.contact .contact2 {
+  padding: 10% 5%;
+  filter: drop-shadow(5px 5px 15px rgb(105, 105, 105));
+}
+
+.contact .contact2 form {
+  width: 100%;
+  padding: 35px;
+  background-color: white;
+  border-radius: 45px;
+}
+
+.contact .contact2 form label {
+  font-weight: 500;
+}
+
+.button {
+  display: flex;
+  justify-content: right;
+  padding: 5px 10px;
+}
+
+.footer {
+  background-image: url("assets/Group\ 59.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer .container {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  padding: 50px 15px; /* Adjusted padding for smaller screens */
+}
+
+.footer .container h1 {
+  font-size: 55px;
+}
+
+.footer .container a {
+  text-decoration: none;
+  color: white;
+}
+
+form .inline {
+  display: flex;
+  gap: 10px;
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 2rem;
+  }
+
+  .header-para {
+    font-size: 1rem;
+  }
+
+  .aboutlangcorp .container {
+    padding: 40px 15px;
+  }
+
+  .eslcourses .container {
+    padding: 40px 15px;
+  }
+
+  .aboutme .container {
+    padding: 40px 15px;
+  }
+
+  .contact .contact1 {
+    padding: 100px 50px;
+  }
+
+  .contact .contact2 {
+    padding: 5%;
+  }
+
+  .footer .container {
+    padding: 30px 15px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .header-para {
+    font-size: 0.875rem;
+  }
+
+  .aboutlangcorp .container {
+    padding: 20px 15px;
+  }
+
+  .eslcourses .container {
+    padding: 20px 15px;
+  }
+
+  .aboutme .container {
+    padding: 20px 15px;
+  }
+
+  .contact .contact1 {
+    padding: 50px 20px;
+  }
+
+  .contact .contact2 {
+    padding: 5%;
+  }
+
+  .footer .container {
+    padding: 20px 15px;
+  }
+
+  .aboutme .row img {
+    margin-left: 0;
+  }
+}
