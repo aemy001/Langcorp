@@ -99,11 +99,11 @@ nav .navbar-collapse ul li .aTag {
 } */
 
 /* Mobile */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .banner {
     margin-top: -150px;
   }
-}
+} */
 .aboutlangcorp {
   background-image: url("./assets/Group\ 4676.png");
   background-repeat: no-repeat;
@@ -306,7 +306,7 @@ form .inline {
     font-size: 0.875rem;
   }
   .banner {
-    margin-top: -258px;
+    margin-top: -150px;
   }
   .aboutlangcorp .container {
     padding: 30px 15px;
