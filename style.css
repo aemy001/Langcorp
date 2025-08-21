@@ -86,7 +86,19 @@ nav .navbar-collapse ul li .aTag {
 .banner {
   margin-top: -360px;
 }
+/* Tablet */
+@media (max-width: 991px) {
+  .banner {
+    margin-top: -174px;
+  }
+}
 
+/* Mobile */
+@media (max-width: 576px) {
+  .banner {
+    margin-top: -100px;
+  }
+}
 .aboutlangcorp {
   background-image: url("./assets/Group\ 4676.png");
   background-repeat: no-repeat;
