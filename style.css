@@ -92,16 +92,16 @@ nav .navbar-collapse ul li .aTag {
   }
 }
 /* Tablet */
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .banner {
     margin-top: -124px;
   }
-}
+} */
 
 /* Mobile */
 @media (max-width: 576px) {
   .banner {
-    margin-top: -100px;
+    margin-top: -150px;
   }
 }
 .aboutlangcorp {
@@ -249,7 +249,7 @@ form .inline {
     font-size: 2rem;
   }
   .banner {
-    margin-top: -260px;
+    margin-top: -174px;
   }
   .aboutme .row img {
     display: none;
