@@ -86,10 +86,15 @@ nav .navbar-collapse ul li .aTag {
 .banner {
   margin-top: -360px;
 }
+@media (max-width: 1024px) {
+  .banner {
+    margin-top: -174px;
+  }
+}
 /* Tablet */
 @media (max-width: 991px) {
   .banner {
-    margin-top: -174px;
+    margin-top: -124px;
   }
 }
 
